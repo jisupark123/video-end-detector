@@ -53,12 +53,12 @@ def get_volume(iter=10, verbose=False):
 
 def config_sound_detection():
     global BASE_NOISE, ACTIVE_NOISE
-    input("동영상 재생을 멈추고 엔터를 눌러주세요")
+    input("동영상 재생을 멈추고 Enter를 눌러주세요")
     BASE_NOISE = get_volume(iter=20, verbose=True)
     print(f"기본 소음 크기: {BASE_NOISE:.2f}")
 
     while not ACTIVE_NOISE:
-        input("동영상 재생을 시작하고 엔터를 눌러주세요")
+        input("동영상 재생을 시작하고 Enter를 눌러주세요")
         noise = get_volume(iter=20, verbose=True)
         print(
             f"활성 소음 크기: {noise:.2f}, 목표 소음 크기: {BASE_NOISE + THRESHOLD + EXTRA_THRESHOLD:.2f}"
