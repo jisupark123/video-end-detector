@@ -4,7 +4,6 @@
 
 Detects the end of a video by detecting sound and sends a notification to the user.
 
-동영상
 
 <br/>
 
