@@ -4,7 +4,6 @@
 
 Detects the end of a video by detecting sound and sends a notification to the user.
 
-
 <br/>
 
 ## Quick Start
@@ -77,7 +76,7 @@ python main.py
 
 <br/>
 
-2. 활성 소음 크기 설정
+2. 활성 노이즈 크기 설정
 
 다음으로, 동영상 재생 중 소리 감지를 위한 활성 소음 크기를 설정해야 합니다. 다음과 같은 메시지가 출력됩니다.
 
